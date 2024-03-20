@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my-table</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        // カスタムクラスをインポートします
+        import MyTile from './my-tile.js';
+        
+        // カスタムクラスにタグ名をつけます。第三引数に注意！
+        customElements.define('my-tile', MyButton, {extends: 'td'});
+    </script>
+</head>
+
+<body>
+    <h1>my-table</h1>
+    <button id="start-button" onclick="go()">Go</button>
+    <table id="main-table">
+        <tbody id="main-body">
+            <tr>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+            </tr>
+            <tr>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+            </tr>
+            <tr>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+                <td is="my-tile"></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+table td {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    width: 30px;
+}
+
+#main-table-wrapper {
+    position: relative;
+}
+
+table.inactive {
+    opacity: 0.3;
+}
+
+table td.vacant {
+    background-color: transparent;;
+}
+
+table td.line {
+    background-color: lightgray;
+}
+
+table td.ignition {
+    background-color: crimson;
+}
+
+table td.line.burning {
+    background-color: indianred;
+}
+
+table td.circruit {
+    background-color: darkslategray;
+}
+
+table td.circruit.burning {
+    background-color: maroon;
+}
