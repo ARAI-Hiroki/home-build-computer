@@ -36,6 +36,12 @@ table td.circruit {
     background-color: darkslategray;
 }
 
+table td.upload-point{
+    background-color: yellow;
+
+}
+
+
 table td.circruit.burning {
     background-color: maroon;
 }
